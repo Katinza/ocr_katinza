@@ -1,0 +1,14 @@
+Training Loss and Accuracy
+
+o N 8 & &
+
+Loss/Accuracy
+
+©
+©
+
+06 - Nn
+ae Bates Ween a Ap
+0.4- —— val_loss
+
+0 10 20 30 40 50
