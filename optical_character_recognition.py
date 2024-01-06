@@ -117,7 +117,7 @@ class Main_window(customtkinter.CTk):
         instructions_label = customtkinter.CTkTextbox(self.second_frame)  # Εισαγωγή κειμένου μέσα στο frame
         instructions_label.pack(pady=10)
         instructions_label.insert("0.0", "Πώς να χρησιμοποιήσετε την εφαρμογή: \n\n"
-                                         "Η εφαρμογή σας δίνει δύο     τρόπους που μπορείτε να     πραγματοποιήσετε OCR.\n\nΠατώντας το κουμπί \n'Pytesseract' επιλέγετε το \nεπιθυμητό αρχείο εικόνας \nκαι εκτελείται η αναγνώριση των χαρακτήρων με την \nPytesseract.\n\nΓια να πραγματοποιήσετε \nOCR με την Tensorflow \nπατήστε αρχικά του κουμπί \n'Tensorflow (Βήμα 1)' για να \nεπιλέξετε αρχείο εικόνας. \nΈπειτα πατήστε 'Tensorflow  (Βήμα 2)' για να πραγματοποι- ήσετε OCR με την \nTensorflow.\n\n Ευχαριστούμε! ")
+                                          "Η εφαρμογή σας δίνει δύο \nτρόπους που μπορείτε να \nπραγματοποιήσετε OCR.\n\nΠατώντας το κουμπί \n'Pytesseract' επιλέγετε το \nεπιθυμητό αρχείο εικόνας \nκαι εκτελείται η αναγνώριση των χαρακτήρων με την \nPytesseract.\n\nΓια να πραγματοποιήσετε \nOCR με την Tensorflow \nπατήστε αρχικά του κουμπί \n'Tensorflow (Βήμα 1)' για να \nεπιλέξετε αρχείο εικόνας. \nΈπειτα πατήστε 'Tensorflow  (Βήμα 2)' για να πραγματοποι- ήσετε OCR με την \nTensorflow.\n\n Ευχαριστούμε! ")
 
     def select_file(self):  # Συνάρτηση για την επιλογή αρχείου εικόνας από τον χρήστη
         global_file_path = filedialog.askopenfilename(filetypes=[
